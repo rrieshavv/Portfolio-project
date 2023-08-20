@@ -13,6 +13,9 @@ font-family: 'Paytone One', sans-serif;
 body {
   background-color: #0e0c0e;
   font-family: 'Outfit', sans-serif;
-  color: #F8F4DB;
-  
+  color: #F8F4DB; 
+}
+
+.font-title {
+  font-family: 'Paytone One', sans-serif;
 }

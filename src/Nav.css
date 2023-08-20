@@ -1,0 +1,22 @@
+.nav-primary {
+  background-color: #2e2b2b;
+  width: fit-content;
+  padding: 10px;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 40px;
+}
+.nav-ul {
+  display: flex;
+  list-style: none;
+}
+.nav-li {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #fcbb29;
+  font-size: 18px;
+}
+.nav-li:hover {
+    border-bottom: 1px solid #fcbb29;
+    cursor: pointer;
+}
