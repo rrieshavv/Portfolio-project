@@ -17,6 +17,7 @@ import { Cloud } from './components/Skills/Cloud';
 import reportWebVitals from './reportWebVitals';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Projects } from './components/Projects';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -33,6 +34,7 @@ root.render(
       <Route path='Cloud' element={<Cloud/>} />
     </Route>
     <Route path='/Education' element={<Education/>} />
+    <Route path='/Projects' element={<Projects/>} />
   </Routes>
   </BrowserRouter>
 );
