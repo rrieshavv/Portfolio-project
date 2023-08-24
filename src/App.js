@@ -1,6 +1,6 @@
-import './App.css';
-import {Nav} from './Nav';
-import {Home} from './Home'
+import './assets/css/App.css';
+import {Nav} from './components/Nav';
+import {Home} from './components/Home';
 
 
 function App() {

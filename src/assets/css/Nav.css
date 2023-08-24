@@ -13,8 +13,12 @@
 .nav-li {
   margin-left: 20px;
   margin-right: 20px;
+  
+}
+.link{
   color: #fcbb29;
   font-size: 18px;
+  text-decoration: none;
 }
 .nav-li:hover {
     border-bottom: 1px solid #fcbb29;

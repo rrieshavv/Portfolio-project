@@ -1,0 +1,44 @@
+.about{
+    text-align: center;
+}
+.about-title{
+    font-size: 72px;
+    line-height: 72px;
+    margin-top: 80px;
+}
+.full-name{
+    color: #F3DBC7;
+    font-family: Paytone One;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    margin-left: 31%;
+}
+.about-bio{
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    margin-top: 80px;
+}
+.text-pink{
+    color: #F38BA3;
+}
+.about-location{
+    font-size: 48px;
+    line-height: 48px;
+
+    margin-top: 51px;
+}
+
+.skills-title{
+    font-size: 72px;
+    line-height: 72px;
+
+    margin-top: 57px;
+}

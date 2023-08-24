@@ -1,9 +1,25 @@
-.hero {
+.hero{
+    display: flex;
+    justify-content: space-around;
+    margin: 150px 0 0 130px;
+
+}
+.hero-left {
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 35px;
-    margin: 190px 0 0 130px;
+    /* margin: 190px 0 0 130px; */
+}
+.hero-right{
+    position: relative;
+    display: inline-block;
+}
+.coder-icon{
+    position:absolute;
+    /* position: absolute; */
+    top: 30px;
+    left: 80px;
 }
 .role{
     font-size: 36px;
