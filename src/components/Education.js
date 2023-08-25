@@ -8,7 +8,7 @@ export function Education() {
     <>
       <Nav />
       <div className="edu">
-        <div className="edu-title font-title">My Education</div>
+        <div className="edu-title font-title">Education</div>
         <div className="edu-card">
           <p className="edu-card-title">
             Bachelor of Science (Hons) in Computing
@@ -22,7 +22,7 @@ export function Education() {
           <p>Graduated Sept 2022</p>
         </div>
         <div className="certf">
-          <div className="certf-title font-title">My Certifications</div>
+          <div className="certf-title font-title">Certifications</div>
           <div className="edu-card">
             <p className="edu-card-title">
               AWS Cloud Quest: Cloud Practitioner

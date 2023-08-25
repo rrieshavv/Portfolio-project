@@ -7,7 +7,7 @@
     line-height: 72px;
 
     margin-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 .edu-card{
     text-align: left;
@@ -44,6 +44,7 @@
 
 .certf-title{
     margin-top: 20px;
+    margin-bottom: 40px;
     font-size: 48px;
     line-height: 48px;
 }
