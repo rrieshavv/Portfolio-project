@@ -3,6 +3,7 @@ import "../assets/css/Home.css";
 
 import img2 from "../assets/images/home-2.png";
 import img1 from "../assets/images/home-1.png";
+import { Link } from "react-router-dom";
 
 export function Home({ name, role, bio_line_1, bio_line_2 }) {
   return (
@@ -19,7 +20,10 @@ export function Home({ name, role, bio_line_1, bio_line_2 }) {
           <br />
           {bio_line_2}
         </p>
+        <Link to="/Connect">
         <button className="hire-btn">Hire me right away</button>
+
+        </Link>
       </div>
       <div className="hero-right">
         <img src={img2} alt="big brain" />
