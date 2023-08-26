@@ -24,3 +24,53 @@
   font-weight: 400;
   line-height: 20px; /* 71.429% */
 }
+.skills-responsive {
+  display: none;
+}
+.skills-heading {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #fcbb29;
+  text-transform: uppercase;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  /* font-weight: 600; */
+}
+.skills-line{
+  background-color: #fcbb29;
+  width: 100px;
+  height: 1px;
+}
+.skills-icons img{
+  height: 64px;
+}
+.skills-icons{
+  margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: fit-content;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 20px;
+    justify-content: space-around;
+}
+@media only screen and (max-width: 768px) {
+  .skills-container {
+    display: none;
+  }
+  .skills-responsive {
+    display: block;
+
+    /* margin: auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-around; */
+  }
+  
+}
