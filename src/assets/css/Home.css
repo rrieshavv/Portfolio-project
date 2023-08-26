@@ -52,3 +52,23 @@
 .hire-btn:hover{
     cursor: pointer;
 }
+@media only screen and (max-width: 768px) {
+    .hero{
+        margin-top: 80px;
+        margin-left: 10px;
+    }
+    .hero-right{
+        display: none;
+    }
+    .hero-title{
+        font-size: 48px;
+    }
+    .role{
+        font-size: 24px;
+    }
+    .bio{
+        font-size: 18px;
+        text-align: left;
+    }
+    
+}
