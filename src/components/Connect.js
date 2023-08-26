@@ -8,8 +8,9 @@ import linkedin from "../assets/images/linkedin-i.png";
 
 export function Connect() {
   return (
+    <>
+    <Nav />
     <div className="connect">
-      <Nav />
       <form action="" className="connect-form">
         <p>Will get back to you asap!</p>
         <div className="input-box">
@@ -40,5 +41,6 @@ export function Connect() {
         </a>
       </div>
     </div>
+    </>
   );
 }

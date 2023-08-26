@@ -32,7 +32,6 @@ p {
   padding: 10px;
   border: none;
   font-family: "Outfit", sans-serif;
-
   resize: none;
 
   color: #f3dbc7;
@@ -52,6 +51,7 @@ p {
   padding: 10px;
   border: none;
   font-size: 16px;
+  margin-top: 10px;
 
   font-family: "Outfit", sans-serif;
   background: #fcbb29;
@@ -80,5 +80,15 @@ p {
   align-items: center;
   gap: 24px;
 
-  margin-top: 20px;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width:768px)
+{
+  .connect-form{
+    width: 100%;
+  }
+  .s-input,.p-input,.input-btn{
+    width: 100%;
+  }
 }
