@@ -1,7 +1,6 @@
 .edu{
-    text-align: center
+    text-align: center;
 }
-
 .edu-title{
     font-size: 72px;
     line-height: 72px;
@@ -10,7 +9,7 @@
     margin-bottom: 40px;
 }
 .edu-card{
-    text-align: left;
+    /* text-align: left; */
     margin: 10px;
     display: inline-flex;
     flex-direction: column;
@@ -29,7 +28,9 @@
     font-weight: 500;
     line-height: 24px;
 }
-
+.edu-card p{
+    text-align: left;
+}
 .edu-card-title {
     color: #FFF;
     font-family: Outfit;
@@ -45,10 +46,33 @@
 .certf-title{
     margin-top: 20px;
     margin-bottom: 40px;
-    font-size: 48px;
-    line-height: 48px;
+    font-size: 78px;
+    line-height: 78px;
 }
 
 a{
     color: white;
+}
+
+@media only screen and (max-width:768px)
+{
+    .edu{
+        width: 100%;
+        overflow-y:hidden;
+    }
+    .edu-title, .certf-title{
+        font-size: 48px;
+        line-height: 48px;
+        margin-top: 30px;
+    }
+    .edu-card{
+        width: 350px;
+        padding: 1px;
+    }
+    .edu-card-title{
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 18px;
+    }
+    
 }
