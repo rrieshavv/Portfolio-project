@@ -54,8 +54,7 @@ export function Languages() {
           <img src={Js} alt="Js" />
           <img src={Reactjs} alt="React.js" />
         </div>
-      </div>
-      {/* backend */}
+        {/* backend */}
       <div className="skills-heading">
             <div className="skills-line"></div>
             <div>Bankend</div>
@@ -83,6 +82,8 @@ export function Languages() {
         <div className="skills-icons">
           <img src={Mysql} alt="Mysql" />
         </div>
+      </div>
+      
     </>
   );
 }

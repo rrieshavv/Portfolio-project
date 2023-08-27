@@ -3,6 +3,8 @@ import "../assets/css/About.css";
 
 import { Nav } from "../components/Nav";
 import {AboutNav} from '../components/AboutNav';
+import { Footer } from "../components/Footer";
+
 
 import NepalMap from "../assets/images/nepal-map.png";
 import { Outlet } from "react-router-dom";
@@ -33,6 +35,7 @@ export function About() {
         <AboutNav />
         <Outlet/>
       </div>
+      <Footer />
     </>
   );
 }

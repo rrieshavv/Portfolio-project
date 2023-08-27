@@ -51,6 +51,9 @@ export function Projects() {
           </p>
         </div>
       </div>
+      <div className="footer">
+        <p className='footer-text'>Copyright &copy; Rishav Karna, 2023. </p>
+      </div>
     </>
   );
 }

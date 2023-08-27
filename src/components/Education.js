@@ -2,6 +2,7 @@ import "../assets/css/App.css";
 import "../assets/css/Education.css";
 
 import { Nav } from "../components/Nav";
+import { Footer } from "../components/Footer";
 
 export function Education() {
   return (
@@ -51,6 +52,7 @@ export function Education() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

@@ -8,6 +8,7 @@ font-family: 'Paytone One', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 body {
@@ -15,8 +16,24 @@ body {
   font-family: 'Outfit', sans-serif;
   color: #F8F4DB; 
   overflow-x: hidden;
+
 }
 
 .font-title {
   font-family: 'Paytone One', sans-serif;
+  
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%; /* Ensures the footer spans the entire width */
+  text-align: center; /* Center-aligns the content */
+}
+
+.footer p {
+  margin-bottom: 10px; /* Removes default margin for the paragraph */
+}
+
+.footer2{
+  margin-top: 30px;
 }
