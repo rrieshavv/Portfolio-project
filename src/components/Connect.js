@@ -1,5 +1,5 @@
-import { useRef } from "react";
-import emailjs from '@emailjs/browser';
+import { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 
 import "../assets/css/App.css";
 import "../assets/css/Connect.css";
@@ -10,6 +10,8 @@ import instagram from "../assets/images/instagram-i.png";
 import linkedin from "../assets/images/linkedin-i.png";
 
 export function Connect() {
+  const [showNotification, setShowNotification] = useState(false);
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -25,7 +27,9 @@ export function Connect() {
       .then(
         (result) => {
           console.log(result.text);
-          console.log('message sent');
+          console.log("message sent");
+          setShowNotification(true);
+          form.current.reset();
         },
         (error) => {
           console.log(error.text);
@@ -59,6 +63,9 @@ export function Connect() {
             ></textarea>
           </div>
           <input type="submit" value={"Send"} className="input-btn" />
+          {showNotification && (
+            <div className="notification">Message Sent!</div>
+          )}
         </form>
         <div className="or-section">
           <div className="or-header">
