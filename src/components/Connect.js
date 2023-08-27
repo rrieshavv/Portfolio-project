@@ -49,17 +49,20 @@ export function Connect() {
               name="user_name"
               className="p-input"
               placeholder="Your name"
+              required
             />
             <input
               type="email"
               name="user_email"
               className="p-input"
               placeholder="Your email"
+              required
             />
             <textarea
               name="message"
               placeholder="Your message"
               className="s-input"
+              required
             ></textarea>
           </div>
           <input type="submit" value={"Send"} className="input-btn" />
