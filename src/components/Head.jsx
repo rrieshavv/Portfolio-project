@@ -24,10 +24,18 @@ const Head = () => {
         </div>
       </div>
       <div className="md:hidden flex flex-col  justify-end gap-5 mr-5 ">
-        <img src={facebook} alt="" />
-        <img src={instagram} alt="" />
-        <img src={github} alt="" />
-        <img src={linkedin} alt="" />
+        <a href="">
+          <img src={facebook} alt="" />
+        </a>
+        <a href="https://www.instagram.com/rrieshavv/">
+          <img src={instagram} alt="" />
+        </a>
+        <a href="https://github.com/rrieshavv">
+          <img src={github} alt="" />
+        </a>
+        <a href="https://www.linkedin.com/in/rishavkarna/">
+          <img src={linkedin} alt="" />
+        </a>
       </div>
     </div>
   );

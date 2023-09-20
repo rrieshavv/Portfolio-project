@@ -5,14 +5,14 @@ const Project = () => {
       <div className="flex flex-col">
         <h3 className="text-2xl font-semibold mb-5">MERN Projects</h3>
         <div className="flex gap-10 overflow-x-auto ">
-          <a href="">
+          <a href="https://github.com/rrieshavv/Blog-app-MERN">
             <div className="flex w-52 justify-center p-5 border rounded border-orange-900 shadow-lg hover:shadow-orange-800 transition duration-300 ease-in-out">
               <p className="font-semibold text-xl">Blog App</p>
             </div>
           </a>
-          <a href="">
+          <a href="https://github.com/rrieshavv/Book-store-MERN">
             <div className="flex w-52 justify-center p-5 border rounded border-orange-900 shadow-lg hover:shadow-orange-800 transition duration-300 ease-in-out">
-              <p className="font-semibold text-xl">Library Database</p>
+              <p className="font-semibold text-xl">BookStore DB</p>
             </div>
           </a>
         </div>
@@ -21,7 +21,7 @@ const Project = () => {
       <div className="flex flex-col mt-5">
         <h3 className="text-2xl font-semibold mb-5">Python</h3>
         <div className="flex gap-10 overflow-x-auto ">
-          <a href="">
+          <a href="https://github.com/rrieshavv/laptop-shop-management-system">
             <div className="flex w-52 justify-center py-5 border rounded border-orange-900 shadow-lg hover:shadow-orange-800 transition duration-300 ease-in-out">
               <p className="font-semibold text-xl">Laptop Shop Portal</p>
             </div>
@@ -32,7 +32,7 @@ const Project = () => {
       <div className="flex flex-col mt-5">
         <h3 className="text-2xl font-semibold mb-5">Java</h3>
         <div className="flex gap-10 overflow-x-auto ">
-          <a href="">
+          <a href="https://github.com/rrieshavv/bankcard-management-system">
             <div className="flex w-52 justify-center py-5 border rounded border-orange-900 shadow-lg hover:shadow-orange-800 transition duration-300 ease-in-out">
               <p className="font-semibold text-xl">Bankcard System</p>
             </div>
@@ -43,12 +43,12 @@ const Project = () => {
       <div className="flex flex-col mt-5">
         <h3 className="text-2xl font-semibold mb-5">Others</h3>
         <div className="flex gap-10 overflow-x-auto ">
-          <a href="">
+          <a href="https://github.com/rrieshavv/Bot-biruwa">
             <div className="flex w-52 justify-center py-5 border rounded border-orange-900 shadow-lg hover:shadow-orange-800 transition duration-300 ease-in-out">
               <p className="font-semibold text-xl">Bot Biruwa Web</p>
             </div>
           </a>
-          <a href="">
+          <a href="https://github.com/rrieshavv/">
             <div className="flex w-52 justify-center py-5 border rounded border-orange-900 shadow-lg hover:shadow-orange-800 transition duration-300 ease-in-out">
               <p className="font-semibold text-xl">More on GitHub...</p>
             </div>
