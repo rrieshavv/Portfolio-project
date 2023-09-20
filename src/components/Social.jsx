@@ -6,38 +6,39 @@ import linkedin from "../assets/Icons/linkedin.svg";
 const Social = () => {
   return (
     <>
-      <div className="mb-9 flex gap-2.5">
-        <a href="">
-          <div>
-            <img src={facebook} alt="facebook" />
-          </div>
-          <div>Facebook</div>
-        </a>
-      </div>
-      <div className="mb-9 flex gap-2.5">
-        <a href="https://www.instagram.com/rrieshavv/">
-          <div>
-            <img src={instagram} alt="instagram" />
-          </div>
-          <div>Instagram</div>
-        </a>
-      </div>
-      <div className="mb-9 flex gap-2.5">
-        <a href="https://github.com/rrieshavv">
-          <div>
-            <img src={github} alt="github" />
-          </div>
-          <div>GitHub</div>
-        </a>
-      </div>
-      <div className="flex gap-2.5">
-        <a href="https://www.linkedin.com/in/rishavkarna/">
-          <div>
-            <img src={linkedin} alt="linkedin" />
-          </div>
-          <div>LinkedIn</div>
-        </a>
-      </div>
+      <a href="" className="mb-9 flex gap-2.5">
+        <div>
+          <img src={facebook} alt="facebook" />
+        </div>
+        <div>Facebook</div>
+      </a>
+
+      <a
+        href="https://www.instagram.com/rrieshavv/"
+        className="mb-9 flex gap-2.5"
+      >
+        <div>
+          <img src={instagram} alt="instagram" />
+        </div>
+        <div>Instagram</div>
+      </a>
+
+      <a href="https://github.com/rrieshavv" className="mb-9 flex gap-2.5">
+        <div>
+          <img src={github} alt="github" />
+        </div>
+        <div>GitHub</div>
+      </a>
+
+      <a
+        href="https://www.linkedin.com/in/rishavkarna/"
+        className="flex gap-2.5"
+      >
+        <div>
+          <img src={linkedin} alt="linkedin" />
+        </div>
+        <div>LinkedIn</div>
+      </a>
     </>
   );
 };
