@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;;
+    margin: 5% 20%;
+    color: #343a40;
+}
+a{
+    color: #343a40;
+}
+.about-nav a, .about-nav i{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.about-header{
+    font-size: 41px;
+    line-height: 49px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.about-container{
+    font-size: 18px;
+    line-height: 31px;
+    text-align: justify;
+}
+
+ hr{
+  border: none; /* Remove the default border */
+  border-top: 1px solid #e0dfdf; /* Add a light gray border on top */
+  margin: 20px 0; /* Add some margin for spacing */
+} 
+
+footer{
+    text-align: center;
+}
+.footer-icons{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.footer-text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.blog-date{
+    color: #343a40;
+    line-height: 22px;
+    font-size: 14px;
+}
+.blog-header{
+    font-size: 41px;
+    line-height: 49px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.blog-content{
+    font-size: 18px;
+    line-height: 31px;
+    font-weight: 400;
+}
+.list li{
+    margin: 5px 0px;
+}
+.code{
+    font-family: monospace;
+}
+.text-blue{
+    color: rgb(88, 88, 250);
+}
+@media only screen and (max-width: 768px) {
+    body{
+        margin: 5%;
+    }
+
+}

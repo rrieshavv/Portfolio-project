@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #343a40;
+}
+#blog{
+    font-family: 'Roboto', sans-serif;
+    margin: 5% 20%;
+    color: #343a40;
+}
+nav a{
+    color: #343a40;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 29px;
+}
+nav{
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+.blog-header{
+    font-size: 41px;
+    line-height: 49px;
+    font-weight: 600;
+}
+.blog-date{
+    color: #868e96;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 400;
+}
+.blog-title{
+    font-size: 32px;
+    line-height: 52px;
+    font-weight: 600;
+}
+.blog-desc{
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 400;
+}
+.blog-container{
+    margin-top: 40px;
+    min-height: 450px;
+}
+.blog-card {
+    margin: 20px 0px;
+    border-radius: 5px;
+    padding: 15px 10px;
+}
+.blog-card:hover {
+    background-color: #f8f8f8;
+}
+
+hr{
+    border: none; /* Remove the default border */
+    border-top: 1px solid #e0dfdf; /* Add a light gray border on top */
+    margin: 20px 0; /* Add some margin for spacing */
+} 
+  
+footer{
+    text-align: center;
+}
+.footer-icons{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.footer-text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+@media only screen and (max-width: 768px) {
+    #blog{
+        margin: 2%;
+    }
+    .blog-title{
+        font-size: 21px;
+        line-height: 30px;
+    }
+}
