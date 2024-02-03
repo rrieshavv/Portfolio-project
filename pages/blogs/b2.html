@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Session in ASP.NET MVC Web application
+    </title>
+    <link rel="stylesheet" href="../../css/about.css">
+</head>
+<body>
+    <div class="about-nav">
+        <i class="fa-solid fa-angle-left"></i>
+        <a href="../blog.html">More blogs</a>
+    </div>
+    <div class="blog-header">
+        Session in ASP.NET MVC Web application
+    </div>
+    <div class="blog-date">Feb 3, 2023</div>
+    <div class="blog-content">
+        <!-- the blog content start from here  -->
+        <p></p>
+<p style="text-align: left;"><span style="font-weight: bold;">Some of the key features of Session in ASP.NET:</span></p>
+<p style="text-align: left;">
+<ul>
+	<li>Session is a property of controller class whose type is HttpSessionStateBase.</li>
+	<li>Session is also used to pass data within the ASP.NET MVC application and unlike TempData.</li>
+	<li>It persist for its expiration time (default time is 20 minutes but it can be increased).</li>
+	<li>Session is valid for all requests, not for a single redirect.</li>
+	<li>It also requires type casting for getting data and check for null value to avoid error.</li>
+	<li>Session has a performance drawback because it slows down the application that's why it is not recommended to always use Session, Session can be used according to the situation.</li>
+</ul>
+<div><span style="font-weight: bold;">Session Tutorial:</span></div>
+<p>The following steps shows the basic application of a session in ASP.NET.&nbsp;</p>
+<p>1. Start by creating a new web application project in visual studio and select the MVC pattern.</p>
+<p>2. In controllers, in home controller, create an <span style="font-style: italic;">ActionResult</span> method of <span style="font-style: italic;">Index</span> and initialize a session variable as shown in the screenshot below.</p>
+<img src="../../assets/blog2img1.png" alt="blog img" height="400px" width="600px">
+<p>3. Then create view of the <span style="font-style: italic;">Index</span> method and add the following code to see the output on the web browser.</p>
+<img src="../../assets/blog2img2.png" alt="blog img" height="400px" width="600px">
+<p>And then finally build and run the project.</p>
+<img src="../../assets/blog2img3.png"  width="600px" alt="blog img">
+<p>A session lasts for 20 minutes by default. But you can always increase it. To increase the session time, go to the <span style="font-style: italic;">Web.Config </span>file and add the following piece of code.</p>
+<img src="../../assets/blog2img4.png"  width="600px" alt="blog img">
+<p>Here, the session will be available for 5 min and then it will be destroyed.</p>
+<p>Happy coding!</p>
+</p>
+
+    </div>
+    <footer>
+        <hr>
+        <div class="footer-icons">
+            <a href="https://www.linkedin.com/in/rishavkarna/">            
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/_.rrieshavv/">            
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/rrieshavv/">            
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://twitter.com/rrieshavv">            
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="https://github.com/rrieshavv">            
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="mailto:mail.rishavkarna@gmail.com">            
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+        </div>
+        <p class="footer-text">
+        © 2024 Rishav Karna. All rights reserved.
+        </p>
+    </footer>
+    <script src="https://kit.fontawesome.com/d924cc5930.js" crossorigin="anonymous"></script>
+</body>
+</html>
